@@ -30,7 +30,9 @@ export default {
 
 ```
 当然如果你不传箭头的图片，内部使用了iviewUI里面提供的5种iconfont箭头样式供你参考
-传参：{
+传参：
+```
+{
     size: 30,  // 箭头的大小 默认为30
     allowColor: "#ccc", // 箭头的颜色
     allowType: '', // 箭头的样式可有以下几种   
@@ -38,5 +40,6 @@ export default {
     allowImg: '' // 自定义一个向上的箭头 类似一个img的src
     bgColor: "#000", // 矩形背景颜色
     speed: 10 // 回到顶部的速率 越小越快 默认为10
-  }
+}
+```
 # 如果您喜欢的话，欢迎Star，Issues
