@@ -60,9 +60,10 @@ export default {
     gototop () {
       let _t = this;
       _t.timer = setInterval(function(){
-        _t.scrollTop -= 10
-        if (_t.scrollTop <= 0) {
+        _t.scrollTop -= 100
+        if (_t.scrollTop < 100) {
           _t.scrollTop = 0;
+          _t.status = false;
           clearInterval(_t.timer);
         }
         scrollTo(0, _t.scrollTop)
