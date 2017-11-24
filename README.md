@@ -2,7 +2,7 @@
 基于vuejs开发的回到顶部组件，只要当前页面有向下滚动的高度，就会出现回到顶部的按钮，反之则隐藏
 
 效果如下：
-![](https://github.com/wanlixi/vue-goTop/blob/master/gotop.gif)
+![](https://github.com/wanlixi/vue-goTop/blob/master/gotopv2.gif)
 
 ====================================2017-11-24========================================
 移除了Jquery的依赖，并添加一些简单的动画效果
