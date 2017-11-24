@@ -2,13 +2,13 @@
   Create by wanlixin 2017-11-25 00:59:23
   【功能描述】：回到顶部, 箭头的样式是采用iviewUI里面iconfont，大家也可以自定义
    传参：{
-    size: 30,  // 箭头的大小
+    size: 30,  // 箭头的大小 默认为30
     allowColor: "#ccc", // 箭头的颜色
     allowType: '', // 箭头的样式可有以下几种   
     “arrow-up-b”、“chevron-up"、"ios-arrow-up"、"ios-arrow-thin-up"、"android-arrow-up"
     allowImg: '' // 自定义一个向上的箭头 类似一个img的src
     bgColor: "#000", // 矩形背景颜色
-    speed: 10 // 回到顶部的速率
+    speed: 10 // 回到顶部的速率 越小越快 默认为10 
   }
  -->
 <template>
