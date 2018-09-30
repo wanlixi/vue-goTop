@@ -15,7 +15,7 @@
     <!-- <go-top></go-top> -->
   </div>
 </template>
-import goTop from '@/compontens/gotop'
+import goTop from '@/components/gotop'
 <script>
 export default {
   compontents: { goTop },
